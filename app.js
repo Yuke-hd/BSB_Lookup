@@ -24,7 +24,7 @@ myApp.controller('Hello', ($scope) => {
             csvData.push(jsonObject[i].split(','));
         }
         // Retrived data from csv file content
-        // console.log(csvData);
+        console.log(csvData);
         return csvData;
     }
 
