@@ -12,7 +12,7 @@ myApp.controller('Hello', ($scope) => {
     }
  
     $scope.readData = function () {
-        var url = "/data.csv";
+        var url = "data.csv";
         var request = new XMLHttpRequest();
         request.open("GET", url, false);
         request.send(null);
