@@ -15,7 +15,7 @@ myApp.controller('Hello', ($scope) => {
         var url = "/BSB_Lookup/data.csv";
         var request = new XMLHttpRequest();
         request.open("GET", url, false);
-        request.send(null);
+        // request.send(null);
 
         var csvData = new Array();
         var jsonObject = request.responseText.split(/\r?\n|\r/);
